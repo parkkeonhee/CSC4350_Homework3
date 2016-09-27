@@ -1,7 +1,32 @@
-<html>
+<!doctype html>
+<!-- Created by Keon Hee Park -->
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Part 4</title>
+    </head>
     <body>
+        <h1><u>PHP Functions and Arrays</u></h1>
+        <h2>Part 4:</h2>
+        <p>According to the Trip Advisor, the 10 best Restaurants in Atlanta based up votes for 2015 are as follows:</p>
+        <br>
+        <p>Chama Gaucha - Average Cost $40.50
+        <br>Aviva by Kameel - Average Cost $15.00
+        <br>Bone's Restaurant - Average Cost $65.00
+        <br>Umi Sushi Buckhead - Average Cost $40.50
+        <br>Fandangles - Average Cost $30.00
+        <br>Capital Grille - Average Cost $60.50
+        <br>Canoe - Average Cost $35.50
+        <br>One Flew South - Average Cost $21.00
+        <br>Fox Bros. BBQ - Average Cost $15.00
+        <br>South City Kitchen Midtown - Average Cost $29.00</p>
+        
+        <p>Define an array (or arrays) that holds this information about Name and Average Cost of the 10 best Restaurants in Atlanta.</p>
+        <p>Print a table of the Restaurants Name and Restaurants Average Cost for all 10 Restaurants.</p>
+        <p>The second part of this program is to write a functions to modify your output that to prints the result of the table ordered by price and a second function to print the resultls </p>
+        
     <?php
-    $Restaruant_Name_Price = array(
+    $Restaurant_Name_Price = array(
                         array("Chama Gaucha", 40.50),
                         array("Aviva by Kameel", 15.00),
                         array("Bone's Restaurant", 65.00),
@@ -14,19 +39,19 @@
                         array("South City Kitchen Midtown", 29.00)
                         );
                         
-    array_multisort($Restaruant_Name_Price);
-    table($Restaruant_Name_Price);
+    array_multisort($Restaurant_Name_Price);
+    table($Restaurant_Name_Price);
     
     print "<br/>";
     $newArray = array();
     
-    foreach($Restaruant_Name_Price as $value){
+    foreach($Restaurant_Name_Price as $value){
         array_push($newArray, $value[1]);
     }
     
-    array_multisort($newArray, SORT_ASC, SORT_NUMERIC, $Restaruant_Name_Price);
+    array_multisort($newArray, SORT_ASC, SORT_NUMERIC, $Restaurant_Name_Price);
     
-    table($Restaruant_Name_Price);
+    table($Restaurant_Name_Price);
     
     function table($array){
     print "<table>";
