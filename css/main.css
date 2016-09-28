@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+
+ol{
+    display:inline-block
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,td,table{
+    border: 1px solid black;
+}
