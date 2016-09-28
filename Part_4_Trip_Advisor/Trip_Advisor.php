@@ -98,7 +98,8 @@
                         array("Fox Bros. BBQ", 15.00),
                         array("South City Kitchen Midtown", 29.00)
                         );
-                        
+    
+    //Using array_multisort API to sort the average cost of the restaurants.
     array_multisort($Restaurant_Name_Price);
     
     print "<b>" . "Print a table of the Restaurants Name and Restaurants Average Cost for all 10 Restaurants." . "</b>";
@@ -108,10 +109,12 @@
     print "<br/>";
     $newArray = array();
     
+    //Using for-each loop to print the values
     foreach($Restaurant_Name_Price as $value){
         array_push($newArray, $value[1]);
     }
     
+    //Using array_multisort API to sort the average cost of the restaurants in ascending.
     array_multisort($newArray, SORT_ASC, SORT_NUMERIC, $Restaurant_Name_Price);
     
     
