@@ -3,11 +3,11 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <title>Part 4</title>
+        <title>Trip Advisor - Part 4</title>
     </head>
     <body>
         <h1><u>PHP Functions and Arrays</u></h1>
-        <h2>Part 4:</h2>
+        <h2>Trip Advisor - Part 4:</h2>
         <p>According to the Trip Advisor, the 10 best Restaurants in Atlanta based up votes for 2015 are as follows:</p>
         <br>
         <p>Chama Gaucha - Average Cost $40.50

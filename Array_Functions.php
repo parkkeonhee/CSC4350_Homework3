@@ -3,11 +3,11 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <title>Part 3</title>
+        <title>Arrays and Functions - Part 3</title>
     </head>
     <body>
         <h1><u>PHP Functions and Arrays</u></h1>
-        <h2>Part 3:</h2>
+        <h2>Arrays and Functions - Part 3</h2>
         <p>Program name Arrays and Functions</p>
         <p>Consider the following array.</p>
         <p>$month = array('January', 'February', 'March', 'April' <br>
