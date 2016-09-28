@@ -14,6 +14,20 @@
 </head>
 
 <body>
+    <ul class="tabs primary-nav">
+		<li class="tabs-item">
+		<a href="../Part_1_Charlie_Lunch/Charlie_Lunch.php" class="tabs-link">Part 1 - Charlie Ate My Lunch!</a>
+		</li>
+		<li class="tabs-item">
+		<a href="../Part_2_Checkerboard/Checkerboard.php" class="tabs-link">Part 2 - Checkerboard</a>
+		</li>
+		<li class="tabs-item">
+		<a href="Arrays_Functions.php" class="tabs-link">Part 3 - Arrays and Functions</a>
+		</li>
+		<li class="tabs-item">
+		<a href="../Part_4_Trip_Advisor/Trip_Advisor.php" class="tabs-link">Part 4 - Trip Advisor</a>
+		</li>
+	</ul>
     <h1><u>PHP Functions and Arrays</u></h1>
     <h2>Arrays and Functions - Part 3</h2>
     <p>Program name Arrays and Functions</p>

@@ -3,17 +3,27 @@ body{
     text-align: center;
 }
 
-ol{
-    display:inline-block
-}
-
-.center{
+ul, ol, table{
     margin-left: auto;
     margin-right: auto;
 }
 
-th,td,table{
-    border: 1px solid black;
+.red{
+    background-color:red;
+    height: 35px; 
+    width: 35px; 
+    border: 1px;
+    padding: 1px;
+    border-spacing: 1px;
+}
+
+.black{
+    background-color:black;
+    height: 35px; 
+    width: 35px; 
+    border: 1px;
+    padding: 1px;
+    border-spacing: 1px;
 }
 
 .tabs {

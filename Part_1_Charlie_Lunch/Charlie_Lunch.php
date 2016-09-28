@@ -14,7 +14,21 @@
 </head>
 
 <body>
-    <h1 class="center"><u>PHP Functions and Array</u></h1>
+    <ul class="tabs primary-nav">
+		<li class="tabs-item">
+		<a href="Charlie_Lunch.php" class="tabs-link">Part 1 - Charlie Ate My Lunch!</a>
+		</li>
+		<li class="tabs-item">
+		<a href="../Part_2_Checkerboard/Checkerboard.php" class="tabs-link">Part 2 - Checkerboard</a>
+		</li>
+		<li class="tabs-item">
+		<a href="../Part_3_Arrays_Functions/Arrays_Functions.php" class="tabs-link">Part 3 - Arrays and Functions</a>
+		</li>
+		<li class="tabs-item">
+		<a href="../Part_4_Trip_Advisor/Trip_Advisor.php" class="tabs-link">Part 4 - Trip Advisor</a>
+		</li>
+	</ul>
+    <h1 class="center"><u>PHP Functions and Arrays</u></h1>
     <h2 class="center">Charlie Ate My Lunch! - Part 1</h2>
     <p class="center">Charlie will eat your lunch exactly 50% of the time. Write a function and name isBitten() that returns TRUE with 50% probability, and FALSE otherwise.</p>
     <p class="center">Hint: You may find the rand() function useful.</p>
@@ -24,7 +38,17 @@
     <?php
     function isBitten(){
     $randomNumber = mt_rand (0, 10) * 10;
-    print $randomNumber ."%". "<br>";
+    if($randomNumber <= 50){
+        print "Charlie " . "<strong>" . "ate" . "</strong>" ." my lunch with " . "<strong>" . $randomNumber ."%". "</strong>" . " probability.";
+        print "<br>";
+        print "<strong>" . $randomNumber . "%" . "</strong>" . " probability" . " > " . "50%";
+        print "<br><br>";
+    } else{
+        print "Charlie " . "<strong>" . "did not " . "</strong>" . "eat my lunch with " . "<strong>" . $randomNumber ."%". "</strong>" . " probability.";
+        print "<br>";
+        print "<strong>" . $randomNumber . "%" . "</strong>" . " probability" . " < " . "50%";
+        print "<br><br>";
+    }
     if($randomNumber <= 50){
         return true;
     }else{

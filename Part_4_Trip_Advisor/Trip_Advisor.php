@@ -14,6 +14,21 @@
 </head>
 
 <body>
+    <ul class="tabs primary-nav">
+		<li class="tabs-item">
+		<a href="../Part_1_Charlie_Lunch/Charlie_Lunch.php" class="tabs-link">Part 1 - Charlie Ate My Lunch!</a>
+		</li>
+		<li class="tabs-item">
+		<a href="../Part_2_Checkerboard/Checkerboard.php" class="tabs-link">Part 2 - Checkerboard</a>
+		</li>
+		<li class="tabs-item">
+		<a href="../Part_3_Arrays_Functions/Arrays_Functions.php" class="tabs-link">Part 3 - Arrays and Functions</a>
+		</li>
+		<li class="tabs-item">
+		<a href="Trip_Advisor.php" class="tabs-link">Part 4 - Trip Advisor</a>
+		</li>
+	</ul>
+    
     <h1><u>PHP Functions and Arrays</u></h1>
     <h2>Trip Advisor - Part 4</h2>
     <p>According to the Trip Advisor, the 10 best Restaurants in Atlanta based up votes for 2015 are as follows:</p>
@@ -66,7 +81,7 @@
     </table>
     <p>Define an array (or arrays) that holds this information about Name and Average Cost of the 10 best Restaurants in Atlanta.</p>
     <p>Print a table of the Restaurants Name and Restaurants Average Cost for all 10 Restaurants.</p>
-    <p>The second part of this program is to write a functions to modify your output that to prints the result of the table ordered by price and a second function to print the resultls </p>
+    <p>The second part of this program is to write a functions to modify your output that to prints the result of the table ordered by price and a second function to print the results.</p>
 
     <hr>
 
@@ -85,7 +100,10 @@
                         );
                         
     array_multisort($Restaurant_Name_Price);
-    table($Restaurant_Name_Price);
+    
+    print "<b>" . "Print a table of the Restaurants Name and Restaurants Average Cost for all 10 Restaurants." . "</b>";
+    print "<br>";
+    printTable($Restaurant_Name_Price);
     
     print "<br/>";
     $newArray = array();
@@ -96,9 +114,11 @@
     
     array_multisort($newArray, SORT_ASC, SORT_NUMERIC, $Restaurant_Name_Price);
     
-    table($Restaurant_Name_Price);
     
-    function table($array){
+    print "<b>" . "Print the result of the table ordered by price and print the results." . "</b>";
+    printTable($Restaurant_Name_Price);
+    
+    function printTable($array){
     print "<table class='center'>";
     print "<tr>";
     print "<th>Restaurant</th>";
@@ -106,7 +126,7 @@
     print "</tr>";
     foreach($array as $value){
         print "<tr>";
-        print "<td>" . $value[0] . "</td>" . "<td>" . $value[1] . "</td>";
+        print "<td>" . $value[0] . "</td>" . "<td>" . "$" . $value[1] . "</td>";
         print "</tr>";
     }
     print "</table>";
