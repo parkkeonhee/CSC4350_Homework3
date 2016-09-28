@@ -1,5 +1,10 @@
 <!doctype html>
-<!-- Created by Keon Hee Park -->
+<!-- Created by Keon Hee Park 
+    Assignment 3 - PHP Functions and Arrays
+	Course: CSC 4350 - Web Programming
+	Instructor: Louis Henry
+	Date: September 28, 2016
+-->
 <html lang="en-US">
 
 <head>
@@ -40,8 +45,6 @@
         
         print("<br><br>");
         
-        //Sorting the array 'month' alphabetically.
-        
         print "<b>" . "Answer to Question 2: Use a function to sort the months in alphabetical order using for-loop and print months that are now sorted." . "</b>";
         
         print("<br>");
@@ -51,7 +54,10 @@
         
         //Creating a function with a for-loop to print months in alphabetical order.
         function sortAlphabeticalForLoop($month, $month_array_length){
+            //Sorting the array 'month' alphabetically.
             sort($month);
+            
+            //Printing the array items by looping through every array index.
             for($i=0;$i<$month_array_length;$i++){
                 print $month[$i] . " ";
             }

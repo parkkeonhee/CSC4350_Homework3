@@ -1,5 +1,10 @@
 <!doctype html>
-<!-- Created by Keon Hee Park -->
+<!-- Created by Keon Hee Park 
+    Assignment 3 - PHP Functions and Arrays
+	Course: CSC 4350 - Web Programming
+	Instructor: Louis Henry
+	Date: September 28, 2016
+-->
 <html lang="en-US">
 
 <head>
