@@ -1,6 +1,8 @@
 <!doctype html>
-<!-- Created by Keon Hee Park 
+<!--
+    Created by Keon Hee Park 
     Assignment 3 - PHP Functions and Arrays
+    Checkerboard.php
 	Course: CSC 4350 - Web Programming
 	Instructor: Louis Henry
 	Date: September 28, 2016
@@ -15,20 +17,20 @@
 
 <body>
     <ul class="tabs primary-nav">
-		<li class="tabs-item">
-		<a href="../Part_1_Charlie_Lunch/Charlie_Lunch.php" class="tabs-link">Part 1 - Charlie Ate My Lunch!</a>
-		</li>
-		<li class="tabs-item">
-		<a href="Checkerboard.php" class="tabs-link">Part 2 - Checkerboard</a>
-		</li>
-		<li class="tabs-item">
-		<a href="../Part_3_Arrays_Functions/Arrays_Functions.php" class="tabs-link">Part 3 - Arrays and Functions</a>
-		</li>
-		<li class="tabs-item">
-		<a href="../Part_4_Trip_Advisor/Trip_Advisor.php" class="tabs-link">Part 4 - Trip Advisor</a>
-		</li>
-	</ul>
-	<h1><u>PHP Functions and Arrays</u></h1>
+        <li class="tabs-item">
+            <a href="../Part_1_Charlie_Lunch/Charlie_Lunch.php" class="tabs-link">Part 1 - Charlie Ate My Lunch!</a>
+        </li>
+        <li class="tabs-item">
+            <a href="Checkerboard.php" class="tabs-link">Part 2 - Checkerboard</a>
+        </li>
+        <li class="tabs-item">
+            <a href="../Part_3_Arrays_Functions/Arrays_Functions.php" class="tabs-link">Part 3 - Arrays and Functions</a>
+        </li>
+        <li class="tabs-item">
+            <a href="../Part_4_Trip_Advisor/Trip_Advisor.php" class="tabs-link">Part 4 - Trip Advisor</a>
+        </li>
+    </ul>
+    <h1><u>PHP Functions and Arrays</u></h1>
     <h2>Checkerboard - Part 2</h2>
     <p>Please create a PHP program that will incorporate TWO for loops which are nested.</p>
     <p>This program should populate a "Checkerboard" using alternating color values are red and black.</p>

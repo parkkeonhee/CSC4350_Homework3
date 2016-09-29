@@ -1,52 +1,63 @@
-body{
+/*
+    Created by Keon Hee Park
+    Assignment 3 - PHP Functions and Arrays
+    main.css
+	Course: CSC 4350 - Web Programming
+	Instructor: Louis Henry
+	Date: September 28, 2016
+*/
+
+body {
     background-color: lightblue;
     text-align: center;
 }
 
-ol{
-    display:inline-block
+ol {
+    display: inline-block
 }
 
-.center{
+.center {
     margin-left: auto;
     margin-right: auto;
 }
 
-th,td,table{
+th,
+td,
+table {
     border: 1px solid black;
 }
 
 .tabs {
-    margin:  0;
+    margin: 0;
     padding: 0;
     list-style: none;
-    display: table; 
-    table-layout: fixed; 
+    display: table;
+    table-layout: fixed;
     width: 100%;
 }
 
 .tabs-item {
-	display: table-cell; 
+    display: table-cell;
 }
 
 .tabs-link {
-	display: block; 
+    display: block;
 }
 
 .primary-nav {
     text-align: center;
     border-radius: 4px;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .primary-nav a {
-	padding: 1em;
-	background-color: orange;
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+    padding: 1em;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .primary-nav a:hover {
-	background-color: #A3C43B;
+    background-color: #A3C43B;
 }

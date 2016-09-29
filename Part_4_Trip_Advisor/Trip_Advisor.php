@@ -1,6 +1,8 @@
 <!doctype html>
-<!-- Created by Keon Hee Park 
+<!--
+    Created by Keon Hee Park 
     Assignment 3 - PHP Functions and Arrays
+    Trip_Advisor.php
 	Course: CSC 4350 - Web Programming
 	Instructor: Louis Henry
 	Date: September 28, 2016
@@ -15,20 +17,20 @@
 
 <body>
     <ul class="tabs primary-nav">
-		<li class="tabs-item">
-		<a href="../Part_1_Charlie_Lunch/Charlie_Lunch.php" class="tabs-link">Part 1 - Charlie Ate My Lunch!</a>
-		</li>
-		<li class="tabs-item">
-		<a href="../Part_2_Checkerboard/Checkerboard.php" class="tabs-link">Part 2 - Checkerboard</a>
-		</li>
-		<li class="tabs-item">
-		<a href="../Part_3_Arrays_Functions/Arrays_Functions.php" class="tabs-link">Part 3 - Arrays and Functions</a>
-		</li>
-		<li class="tabs-item">
-		<a href="Trip_Advisor.php" class="tabs-link">Part 4 - Trip Advisor</a>
-		</li>
-	</ul>
-    
+        <li class="tabs-item">
+            <a href="../Part_1_Charlie_Lunch/Charlie_Lunch.php" class="tabs-link">Part 1 - Charlie Ate My Lunch!</a>
+        </li>
+        <li class="tabs-item">
+            <a href="../Part_2_Checkerboard/Checkerboard.php" class="tabs-link">Part 2 - Checkerboard</a>
+        </li>
+        <li class="tabs-item">
+            <a href="../Part_3_Arrays_Functions/Arrays_Functions.php" class="tabs-link">Part 3 - Arrays and Functions</a>
+        </li>
+        <li class="tabs-item">
+            <a href="Trip_Advisor.php" class="tabs-link">Part 4 - Trip Advisor</a>
+        </li>
+    </ul>
+
     <h1><u>PHP Functions and Arrays</u></h1>
     <h2>Trip Advisor - Part 4</h2>
     <p>According to the Trip Advisor, the 10 best Restaurants in Atlanta based up votes for 2015 are as follows:</p>
